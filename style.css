@@ -6,14 +6,14 @@ body {
 }
 
 h1 {
-  color: magenta;
+  color: black;
 }
 h3 {
-  color: magenta;
+  color: black;
   }
 
 pre {
-  color: violet;
+  color: black;
   font-family: "Concert One";
   white-space: pre-wrap;
   margin: auto;
