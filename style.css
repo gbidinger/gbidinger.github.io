@@ -8,9 +8,12 @@ body {
 h1 {
   font-family: "Segoe UI",-apple-system,Arial,Verdana,sans-serif;
   color: black;
+  align-items:center;
 }
 h3 {
+  font-family: "Segoe UI",-apple-system,Arial,Verdana,sans-serif;
   color: black;
+  padding: 15px;
   }
 
 pre {
