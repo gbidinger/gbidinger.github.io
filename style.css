@@ -22,45 +22,105 @@ pre {
   white-space: pre-wrap;
   margin: auto;
 }
-
-.boxLeft {
-  display: inline-block;
-  width: 30%;
-  height: 80%;
-  margin: 10px 5px 10px 20%;
-  padding: 25px;
-  border: 5px solid black;
-  align-items:center;
-  }
-  
-.boxRight {
-  display: inline;
-  background-color: blue;
-
-}
-
 p {
   color: white;
   font-family: "Concert One";
   white-space: pre-wrap;
-  margin: auto;
-  width: 33%;
+  text-align: center;
+  margin: 5px;
+  vertical-align: middle;
+  width: 90%;
 }
 
-.header {
-  border: 5px solid black ; 
-  border-radius: 10px;
-  width: 400px;
-  height: 150px;
-  margin: 80px;
+#header{
+	background-color: #5F9EA0;
+	border-radius: 20px;
+	height: 50px;
+	display: grid;
+	place-items: center;
 }
 
-.splashScreen {
-  border-radius: 25px;
-  border: 5px solid #73AD21;
-  background-color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#top{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
 }
+
+#namecard{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #483D8B;
+	border-radius: 25px;
+	margin: 5px;	
+	display: grid;
+	place-items: center;
+	
+
+}
+
+#aboutme{
+	width: 50%;
+	height: 100%;
+	float: right;
+	background-color: #2F4F4F;
+	border-radius: 25px;
+	margin: 5px;	
+	display: grid;
+	place-items: center;
+}
+
+#bottom{
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#botleft{
+	width:50%;
+}
+
+#botright{
+	width:50%;
+
+}
+
+#contact{
+	width: 100%;
+	height: 150px;
+	background-color: black;
+	border-radius: 25px;
+	margin: 5px;
+	display: grid;
+	place-items: center;
+}
+
+#calendar{
+	width: 100%;
+	height: 500px;
+	float: left;
+	background-color: #f0f4f9;
+	border-radius: 25px;
+	margin: 5px;	
+	display: grid;
+	place-items: center;
+}
+
+#form{
+	height: 600px;
+	width: 100%;
+}
+
+#googleform{
+	width: 95%;
+	height: 95%;
+}
+
+#googlecal{
+	width: 95%;
+	height: 95%;
+}
+
