@@ -3,6 +3,7 @@ body {
   color: black;
   font-family: Verdana;
   align-items:center;
+  display: content;
 }
 
 h1 {
@@ -41,11 +42,19 @@ p {
 }
 
 #top{
+	width: 100%;
 	height: 200px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 5px;
+	
+}
+@container (aspect-ratio < 1.0){
+	#top{
+	flex-direction: column;
+	align-items: normal;
+	background-color: yellow;
+	}
 }
 
 #namecard{
@@ -54,7 +63,7 @@ p {
 	float: left;
 	background-color: #483D8B;
 	border-radius: 25px;
-	margin: 5px;	
+	margin: 5px;
 	display: grid;
 	place-items: center;
 	
@@ -67,25 +76,28 @@ p {
 	float: right;
 	background-color: #2F4F4F;
 	border-radius: 25px;
-	margin: 5px;	
+	margin: 20px 5px;
 	display: grid;
 	place-items: center;
 }
 
 #bottom{
-	margin: 5px;
+	width: 100%;	
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 #botleft{
 	width:50%;
+	margin: 5px;
+	flex:left;
 }
 
 #botright{
 	width:50%;
-
+	margin: 5px;
 }
 
 #contact{
@@ -93,34 +105,42 @@ p {
 	height: 150px;
 	background-color: black;
 	border-radius: 25px;
-	margin: 5px;
+	margin: 5px 0px;
 	display: grid;
 	place-items: center;
+	flex: left;
 }
 
 #calendar{
 	width: 100%;
-	height: 500px;
+	height: 510px;
 	float: left;
 	background-color: #f0f4f9;
 	border-radius: 25px;
-	margin: 5px;	
+	margin: 5px 0px;
 	display: grid;
 	place-items: center;
 }
 
 #form{
-	height: 600px;
+	height: 670px;
 	width: 100%;
+	background-color: #f0f4f9;
+	border-radius: 25px;
+
+	display: grid;
 }
 
 #googleform{
 	width: 95%;
 	height: 95%;
+
+
 }
 
 #googlecal{
 	width: 95%;
 	height: 95%;
+
 }
 
