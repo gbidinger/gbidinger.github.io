@@ -44,9 +44,9 @@ p {
 	'calendar form'
 	'calendar form'
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
 	#gridcontainer{
-		background-color: yellow;
+
 		display: grid;
 		grid-template-columns: 100%;
 		grid-template-rows: 1fr 2fr 2fr 2fr 3fr 4fr;
